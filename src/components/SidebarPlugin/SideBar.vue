@@ -13,9 +13,10 @@
       </a>
 
       <a
-        href="https://www.creative-tim.com/product/vue-material-dashboard"
+        href="https://www.unicordoba.edu.co/"
         target="_blank"
         class="simple-text logo-normal"
+        style="text-align: center;"
       >
         {{ title }}
       </a>
@@ -47,7 +48,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Vue MD",
+      default: "U. de Córdoba",
     },
     sidebarBackgroundImage: {
       type: String,
@@ -55,7 +56,7 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/vue-logo.png"),
+      default: require("@/assets/img/u-logo.png"),
     },
     sidebarItemColor: {
       type: String,
